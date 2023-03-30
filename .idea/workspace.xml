@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cb25cb4-71c0-485f-8fc2-2acc733fff0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bnpp/bcefit/lafabrique/saison7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bnpp/bcefit/lafabrique/saison7/avengers/Humanoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bnpp/bcefit/lafabrique/saison7/avengers/SuperHero.java" afterDir="false" />
+    <list default="true" id="2cb25cb4-71c0-485f-8fc2-2acc733fff0a" name="Changes" comment="Commit 1 : PJ Avenger.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bnpp/bcefit/lafabrique/saison7/avengers/ListOfHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bnpp/bcefit/lafabrique/saison7/avengers/AvengersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bnpp/bcefit/lafabrique/saison7/avengers/SuperHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnpp/bcefit/lafabrique/saison7/avengers/SuperHero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +54,70 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "code.cleanup.on.save": "true",
+    "last_opened_file_path": "C:/Users/alpha/Formation-EPITA/Java-BCEF/avengers/pom.xml",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.AvengersTest">
+    <configuration name="AvengersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avengers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bnpp.bcefit.lafabrique.saison7.avengers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bnpp.bcefit.lafabrique.saison7.avengers" />
+      <option name="MAIN_CLASS_NAME" value="com.bnpp.bcefit.lafabrique.saison7.avengers.AvengersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvengersTest.should_blackwidow_is_avengers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avengers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bnpp.bcefit.lafabrique.saison7.avengers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bnpp.bcefit.lafabrique.saison7.avengers" />
+      <option name="MAIN_CLASS_NAME" value="com.bnpp.bcefit.lafabrique.saison7.avengers.AvengersTest" />
+      <option name="METHOD_NAME" value="should_blackwidow_is_avengers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvengersTest.should_spiderman_est_mineur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="avengers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bnpp.bcefit.lafabrique.saison7.avengers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bnpp.bcefit.lafabrique.saison7.avengers" />
+      <option name="MAIN_CLASS_NAME" value="com.bnpp.bcefit.lafabrique.saison7.avengers.AvengersTest" />
+      <option name="METHOD_NAME" value="should_spiderman_est_mineur" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AvengersTest" />
+        <item itemvalue="JUnit.AvengersTest.should_blackwidow_is_avengers" />
+        <item itemvalue="JUnit.AvengersTest.should_spiderman_est_mineur" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,7 +127,19 @@
       <option name="presentableId" value="Default" />
       <updated>1680100420444</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit 1 : PJ Avenger.">
+      <created>1680101424855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680101424855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 1 : PJ Avenger." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1 : PJ Avenger." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
